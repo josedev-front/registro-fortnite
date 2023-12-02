@@ -65,7 +65,14 @@ transporter.sendMail(mailOptions, (error, info) => {
       from: '"Bitgaming.cl"<enviar-bitgaming@marysstyle.cl>',
       to: [destinatario1, destinatario2].join(','),
       subject: `Confirmación de recepción de formulario #${numeroAleatorio}`,
-      text: 'hola',  // Asegúrate de tener definida la variable emailHTML
+      text: `Estimado ${nombre} ${apellido},\n\nEs un gusto saludarte. Mediante este correo electrónico, te confirmamos la recepción de tu formulario con el número de referencia ${numeroAleatorio}. Agradecemos tu interés en nuestros servicios.
+      \n${nombre}
+      \n${apellido}
+      \n${correo}
+      \n${telefono}
+      \n${nickname}
+      \n${pais}
+      \n${steamuser}`  // Asegúrate de tener definida la variable emailHTML
      
     };
 // Envío del correo electrónico al usuario
