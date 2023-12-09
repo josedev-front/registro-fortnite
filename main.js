@@ -206,13 +206,14 @@ const emailHTML = `
                 <li><p style="text-align: center;">${numeroAleatorio}</p></li>
                 <li><p style="text-align: center;">Fecha de partida: xx/xx/xx.</p></li>
                 <li><p style="text-align: center">Hora de la partida: xx:xx</p></li>
-                <li> <p style="text-align: center;">${nombre}</p></li>
-                <li><p style="text-align: center;">${apellido}</p></li>
-                <li><p style="text-align: center;">${correo}</p></li>
-                <li><p style="text-align: center;">${telefono}</p></li>
-                <li><p style="text-align: center;">${nickname}</p></li>
-                <li><p style="text-align: center;">${pais}</p></li>
-                <li><p style="text-align: center;">${steamuser}</p></li>
+                <li> <p style="text-align: center;">Nombre: ${nombre}</p></li>
+                <li><p style="text-align: center;">Apellido: ${apellido}</p></li>
+                <li><p style="text-align: center;">Correo: ${correo}</p></li>
+                <li><p style="text-align: center;">Telefono: ${telefono}</p></li>
+                <li><p style="text-align: center;">Nickname: ${nickname}</p></li>
+                <li><p style="text-align: center;">Pais: ${pais}</p></li>
+                <li><p style="text-align: center;">Username de STEAM: ${steamuser}</p></li>
+                <li><p style="text-align: center;">Juego: CSS2</p></li>
                 </ul>
                </div>
                   <!-- Gracias -->
