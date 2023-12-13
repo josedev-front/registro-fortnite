@@ -89,43 +89,6 @@
           </div>
           </div>
         </nav>
-        <nav class="navbar navbar-expand-sm" id="disapeer">
-          <div class="container-fluid">
-            <!-- Links -->
-            <ul class="navbar-nav  mx-auto">
-              <div class="cuadritos container-fluid">
-               <li class="nav-item">
-                 <a class="nav-link" href="#">Fornite</a>
-               </li>
-              </div>
-              <div class="cuadritos container-fluid">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Minecraft PvP</a>
-                </li>
-              </div>
-              <div class="cuadritos  container-fluid">
-                <li class="nav-item container-fluid">
-                  <a class="nav-link" href="#">Minecraft supervivencia</a>
-                </li>
-              </div>
-              <div class="cuadritos container-fluid">
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Valorant</a>
-               </li>
-              </div>
-              <div class="cuadritos container-fluid">
-               <li class="nav-item">
-                  <a class="nav-link" href="#">CCS 2</a>
-               </li>
-              </div>
-              <div class="cuadritos container-fluid">
-              <li class="nav-item">
-                <a class="nav-link" href="#">COD Mobile</a>
-              </li>
-            </div>
-            </ul>
-          </div>
-        </nav>
     <!-- ***** Header Area End ***** -->
     <!-- ***** Welcome Area Start ***** -->
         <div class="row">
@@ -134,8 +97,9 @@
             </div>
             <div class="left-text col-md-8">
                 <!-- ESPACIO EN MEDIO PARA EL REGISTRO-->
-              <header><h1 class="title">Formulario de registro para Counter Strike 2</h1></header>
+                <header style="background-image: url('../header-form-cs2.jpg'); background-size: cover; height: 800px;">
                 <!-- ESPACIO PARA HEADER Y BACKGROUND COLOR QUE SE HARA LUEGO-->
+                <body>
                 <form class="row g-3 needs-validation" id="formulario" action="/enviar" method="POST">
                     <div class="col-md-4">
                       <label for="nombre" class="form-label">Nombre</label>
@@ -161,9 +125,6 @@
                         </div>
                       </div>
                     </div>
-
-
-
                     <div class="col-md-6">
                       <label for="correo" class="form-label">Correo Electrónico</label>
                       <input type="text" class="form-control" id="correo" required>
@@ -178,7 +139,6 @@
                         Por favor ingresa un correo electrónico válido.
                       </div>
                     </div>
-
                     <div class="col-md-6">
                       <label  class="form-label" for="telefono">Numero Telefono</label>
                       <input type="text" class="form-control" id="telefono" required>
@@ -193,9 +153,6 @@
                         Por favor ingresa un numero Telefono.
                       </div>
                     </div>
-
-
-
                     <div class="col-md-3">
                       <label for="pais" class="form-label">País</label>
                       <select class="form-select" id="pais" required>
@@ -238,11 +195,10 @@
                               </div>
                             </div>
                           </div>
-                         
                             <button type="submit" class="btn btn-dark" onclick="validarBootstrap()">Registrarme</button>
-                        
                 </form>
                  </div>
+                </body>
                     <div class="col-md-4" id="right-column">
                     <!--ESPACIO EN BLANCO PARA EL MARGEN DERECHO-->
             </div>
@@ -254,48 +210,6 @@
             <div class="footer-content">
               <div class="row">
               <!-- ***** Contact Form Start ***** -->
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                  <div class="contact-form">
-                    <form id="contact" action="" method="post">
-                      <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                          <fieldset>
-                            <input name="name" type="text" id="name" placeholder="Nompre Apellido" required=""
-                            style="background-color: #f7f7f7; border: 2px gold solid;">
-                          </fieldset>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                          <fieldset>
-                            <input name="email" type="text" id="email" placeholder="Correo electronico"
-                            required="" style="background-color: #f7f7f7; border: 2px gold solid;">
-                          </fieldset>
-                        </div>
-                        <div class="col-lg-12">
-                          <fieldset>
-                            <textarea name="message" rows="6" id="message" placeholder="Mensaje"
-                              required="" style="background-color: #f7f7f7; border: 2px gold solid;"></textarea>
-                          </fieldset>
-                        </div>
-                        <div class="col-lg-12">
-                          <fieldset>
-                            <button type="submit" id="form-submit" class="main-button">Enviar</button>
-                         </fieldset>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-                      <!-- ***** Contact Form End ***** -->
-              <div class="right-content col-lg-6 col-md-12 col-sm-12">
-                <h2>Bit Gaming</h2>
-                <p>Te interesa participar en partidas privadas, ganar premios a repartir, forma parte de nuestra comunidad o convertirte en el streamer que tanto deseas.</p>
-                <ul class="social">
-                  <li><a href="#"><i class="fab fa-discord"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
           <div class="row">
             <div class="col-lg-12">
               <div class="sub-footer">
