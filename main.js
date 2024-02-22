@@ -213,7 +213,7 @@ const emailHTML = `
                 <li><p style="text-align: center;">Nickname: ${nickname}</p></li>
                 <li><p style="text-align: center;">Pais: ${pais}</p></li>
                 <li><p style="text-align: center;">Username de Epic: ${epicuser}</p></li>
-                <li><p style="text-align: center;">Juego: CSS2</p></li>
+                <li><p style="text-align: center;">Juego: Fortnite</p></li>
                 </ul>
                </div>
                   <!-- Gracias -->
