@@ -75,7 +75,7 @@ if (telefono !== confirmartelefono) {
   
    const nickname = document.getElementById('nickname').value;
    const pais = document.getElementById('pais').value;
-   const steamuser = document.getElementById('steamuser').value;
+   const epicuser = document.getElementById('epicuser').value;
 
   //
 
@@ -87,7 +87,7 @@ if (telefono !== confirmartelefono) {
   formData.append('telefono', telefono); 
   formData.append('correo', correo); 
   formData.append('pais', pais);
-  formData.append('steamuser', steamuser);
+  formData.append('epicuser', epicuser);
  
 
   // ===============> La animación de "cargando" <==============

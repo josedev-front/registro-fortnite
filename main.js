@@ -18,7 +18,7 @@ app.post('/enviar', upload.none(), (req, res) => {
       const telefono = req.body.telefono;
       const nickname = req.body.nickname;
       const pais = req.body.pais;
-      const steamuser = req.body.steamuser;
+      const epicuser = req.body.epicuser;
       const destinatario1 = 'recibir-bitgaming@marysstyle.cl';
       const destinatario2 = correo;
       var min = 1000000;
@@ -212,7 +212,7 @@ const emailHTML = `
                 <li><p style="text-align: center;">Telefono: ${telefono}</p></li>
                 <li><p style="text-align: center;">Nickname: ${nickname}</p></li>
                 <li><p style="text-align: center;">Pais: ${pais}</p></li>
-                <li><p style="text-align: center;">Username de STEAM: ${steamuser}</p></li>
+                <li><p style="text-align: center;">Username de Epic: ${epicuser}</p></li>
                 <li><p style="text-align: center;">Juego: CSS2</p></li>
                 </ul>
                </div>
@@ -302,7 +302,7 @@ transporter.sendMail(mailOptions, (error, info) => {
     });
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/RegistroCs2.html');
+  res.sendFile(__dirname + '/public/RegistroFortnite.html');
 });
 
 
